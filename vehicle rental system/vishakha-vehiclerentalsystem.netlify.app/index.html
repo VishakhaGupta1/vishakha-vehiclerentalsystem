@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from bhaswanth-vehiclerentalsystem.netlify.app/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 09 Jun 2024 05:58:05 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental</title>
+    <link rel="stylesheet" href="../unpkg.com/swiper%407.4.1/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+    <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        input[type=text], input[type=password] {
+          width: 100%;
+          padding: 15px;
+          margin: 5px 0 22px 0;
+          display: inline-block;
+          border: none;
+          background: #f1f1f1;
+        }
+        input[type=text]:focus, input[type=password]:focus {
+          background-color: #ddd;
+          outline: none;
+        }
+        button {
+          background-color: #3f51b5;
+          color: white;
+          padding: 14px 20px;
+          margin: 8px 0;
+          border: none;
+          cursor: pointer;
+          width: 100%;
+          opacity: 0.9;
+        }
+        button:hover {
+          opacity:1;
+        }
+        .cancelbtn {
+          padding: 14px 20px;
+          background-color: #f44336;
+        }
+        .cancelbtn, .signupbtn {
+          float: left;
+          width: 50%;
+        }
+        .container {
+          padding: 16px;
+        }
+.modal {
+          display: none; 
+          position: fixed;z-index: 1; left: 0;
+          top: 0;width: 100%; 
+          height: 100%;  overflow: auto; 
+          background-color: #474e5d;padding-top: 50px;
+        }
+        .modal-content {
+          background-color: #fefefe; margin: 5% auto 15% auto;  border: 1px solid #888;
+          width: 80%; 
+        }
+        hr {
+          border: 1px solid #f1f1f1;
+          margin-bottom: 25px;
+        }
+        .close {
+          position: absolute;
+          right: 35px;
+          top: 15px;
+          font-size: 40px;
+          font-weight: bold;
+          color: #f1f1f1;
+        }
+        .close:hover,
+        .close:focus {
+          color: #f44336;
+          cursor: pointer;
+        }
+        .clearfix::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        @media screen and (max-width: 300px) {
+          .cancelbtn, .signupbtn {
+             width: 100%;
+          }
+        }
+        </style>
+</head>
+<body>
+    
+
+
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-car"></i> Vehicle Rental </a>
+
+
+    <div class="icons">
+        <a href='loginpage.html' style=' text-decoration:none; font-size:25px; color: rgb(254, 255, 254); padding: 10px;
+        background-color: #3f51b5;margin-top: 30px; border: 4px rgb(240, 239, 222) solid; border-radius:9px;padding: 6px;'>LOGIN</a></b> 
+    </div>
+
+
+</header>
+
+
+
+<section class="home" id="home"></section>
+
+
+<section class="features" id="features">
+
+    <h1 class="heading"> our features </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="payment.jpg" alt="">
+            <h3>Easy Booking and Payment</h3>
+            <p>Confirm and finalize a reservation with payment details and rental terms.        
+                Choose payment method (e.g. credit card, PayPal, etc.)</p>
+            <a class='btn' href='loginpage.html'>Know more</a>
+        </div>
+
+        <div class="box">
+            <img src="pickdrop.jpg" alt="">
+            <h3>Pickup and Drop off</h3>
+            <p>View pickup and dropoff locations and hours.
+              Check in and check out the vehicle with a rental agent or near by location.</p>
+            <a class='btn' href='loginpage.html'>Know more</a>
+        </div>
+
+        <div class="box">
+            <img src="custcare.png" alt="">
+            <h3>Customer Service</h3>
+            <p> 24/7Assistance</p>
+                <p>Get help via phone, email, or chat.
+               Get help with booking or technical issues.</p>
+            <a class='btn' href='loginpage.html'>Know more</a>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="features" id="features">
+
+    <h1 class="heading"><span>Reviews</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="ironman.jpg" alt="">
+            <p> Very good car rental service provider company, polite drivers,
+                very good services with comfortable cars and good customer service.
+            </p>
+            <h3>Iron Man</h3>
+            <div class="starts">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="spider.jpg" alt="">
+            <p> Nice trip, Enjoyed sevice and good driver, comfortable car
+                will refer again and again to friend, overall good keep it up.
+            </p>
+            <h3>Spider Man</h3>
+            <div class="starts">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="hulk.jpg" alt="">
+            <p> Great price, service and very convenient.the car was clean and worked fine.
+                It was great car rental experience.
+            </p>
+            <h3>Hulk</h3>
+            <div class="starts">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>Vehicle Rental <i class="fas fa-car"></i></h3>
+            <p>Vehicle Rental is a company that rents automobiles for short periods of time to the public, 
+                generally ranging from a few hours to a few weeks.
+            </p>
+            <div class="share">
+                <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+                <a href="https://twitter.com/" class="fab fa-twitter"></a>
+                <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+                <a href="https://in.linkedin.com/" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+        <div class="box">
+            <h3>Contact info</h3>
+            <a  href="#" class="links">  <i class="fas fa-phone">+91-99885563</i></a>
+            <a  href="#" class="links">  <i class="fas fa-envelope">bhaswanth6@gmail.com</i></a>
+            <a  href="#" class="links">  <i class="fas fa-map-marker-alt">Bhaswanth Kumar</i></a>
+        </div>
+        <div class="box">
+            <h3>Newsletter</h3>
+           <p>Subscribe for the latest updates</p>
+           <input type="email" class="email" placeholder="your email">
+            
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Subscribe</button>
+
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+  <form class="modal-content" action="#">
+    <div class="container">
+      <h1 align="center">Thank you for subscribing.🙏🙏🙏</h1>    
+    </div>
+  </form>
+</div>
+</div>
+</div>
+</section>
+<script src="../unpkg.com/swiper%407.4.1/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+<script>
+    var modal = document.getElementById('id01');
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+        location.reload();
+      }
+    }
+    </script>
+</body>
+
+<!-- Mirrored from bhaswanth-vehiclerentalsystem.netlify.app/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 09 Jun 2024 05:58:14 GMT -->
+</html>
+
